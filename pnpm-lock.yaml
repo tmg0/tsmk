@@ -22,7 +22,7 @@ importers:
         version: 2.0.3
       execa:
         specifier: ^9.4.0
-        version: 9.5.0
+        version: 9.5.1
       joycon:
         specifier: ^3.1.1
         version: 3.1.1
@@ -1540,8 +1540,8 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
 
-  execa@9.5.0:
-    resolution: {integrity: sha512-t7vvYt+oKnMbF3O+S5+HkylsPrsUatwJSe4Cv+4017R0MCySjECxnVJ2eyDXVD/Xpj5H29YzyYn6eEpugG7GJA==}
+  execa@9.5.1:
+    resolution: {integrity: sha512-QY5PPtSonnGwhhHDNI7+3RvY285c7iuJFFB+lU+oEzMY/gEGJ808owqJsrr8Otd1E/x07po1LkUBmdAc5duPAg==}
     engines: {node: ^18.19.0 || >=20.5.0}
 
   exponential-backoff@3.1.1:
@@ -4434,7 +4434,7 @@ snapshots:
 
   esutils@2.0.3: {}
 
-  execa@9.5.0:
+  execa@9.5.1:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
       cross-spawn: 7.0.3
@@ -5301,7 +5301,7 @@ snapshots:
       '@oxc-node/core': 0.0.15
       chokidar: 4.0.1
       destr: 2.0.3
-      execa: 9.5.0
+      execa: 9.5.1
       import-meta-resolve: 4.1.0
       mri: 1.2.0
       ohash: 1.1.4
