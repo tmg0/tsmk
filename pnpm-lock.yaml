@@ -13,7 +13,7 @@ importers:
         version: 0.1.6
       consola:
         specifier: ^3.2.3
-        version: 3.3.0
+        version: 3.4.2
       defu:
         specifier: ^6.1.4
         version: 6.1.4
@@ -1246,8 +1246,8 @@ packages:
   confbox@0.1.8:
     resolution: {integrity: sha512-RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==}
 
-  consola@3.3.0:
-    resolution: {integrity: sha512-kxltocVQCwQNFvw40dlVRYeAkAvtYjMFZYNlOcsF5wExPpGwPxMwgx4IfDJvBRPtBpnQwItd5WkTaR0ZwT/TmQ==}
+  consola@3.4.2:
+    resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   core-js-compat@3.39.0:
@@ -4072,7 +4072,7 @@ snapshots:
 
   citty@0.1.6:
     dependencies:
-      consola: 3.3.0
+      consola: 3.4.2
 
   clean-regexp@1.0.0:
     dependencies:
@@ -4108,7 +4108,7 @@ snapshots:
 
   confbox@0.1.8: {}
 
-  consola@3.3.0: {}
+  consola@3.4.2: {}
 
   core-js-compat@3.39.0:
     dependencies:
@@ -5903,7 +5903,7 @@ snapshots:
       bundle-require: 5.0.0(esbuild@0.24.0)
       cac: 6.7.14
       chokidar: 4.0.1
-      consola: 3.3.0
+      consola: 3.4.2
       debug: 4.3.7
       esbuild: 0.24.0
       joycon: 3.1.1
