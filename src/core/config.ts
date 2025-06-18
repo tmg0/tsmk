@@ -28,11 +28,7 @@ export async function loadTsmkConfig(cwd = process.cwd()) {
   })
 
   let defaults: Partial<Options>[] = []
-  console.log('===================================')
-  console.log(configPath)
   const options = await bundleRequireTsmk(configPath!)
-  console.log('===================================')
-  console.log(options)
 
   if (options.extends)
     defaults = await Promise.all([options.extends].flat().map(c => isString(c) ? bundleRequireTsmk(c) : c))

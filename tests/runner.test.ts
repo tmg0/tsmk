@@ -7,7 +7,7 @@ describe('runner', () => {
     const echoHello = defineRunner(async () => {
       return (await execa('echo', ['Hello'])).stdout
     })
-    expect(await execRunner(echoHello)).toMatchInlineSnapshot(`"Hello"`)
+    expect(await execRunner(echoHello)).toMatchInlineSnapshot(`""Hello""`)
   })
 
   it('run', async () => {
