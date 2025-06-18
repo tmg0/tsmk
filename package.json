@@ -71,6 +71,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "bundle-require": "^5.1.0",
     "citty": "^0.1.6",
     "consola": "^3.2.3",
     "defu": "^6.1.4",
@@ -78,7 +79,6 @@
     "execa": "^9.5.1",
     "joycon": "^3.1.1",
     "log-update": "^6.1.0",
-    "oxrun": "^0.2.6",
     "pacote": "^21.0.0",
     "semver": "^7.6.3",
     "ssh2": "^1.16.0"
