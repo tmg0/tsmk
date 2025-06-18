@@ -1,7 +1,7 @@
 {
   "name": "tsmk",
   "type": "module",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Make code review, unit test, and CI/CD works the way just like github actions with typescript",
   "author": "tmg0",
   "license": "MIT",
